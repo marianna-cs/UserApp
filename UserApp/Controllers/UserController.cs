@@ -21,6 +21,26 @@ namespace UserApp.Controllers
             return View();
         }
 
+        [HttpGet("users")]
+        public IActionResult GetUsers()
+        {
+            var users = _userService.GetAllList();
+            var usersOutput = new List<UserDTO>();
+            foreach (var user in users)
+            {
+                UserDTO userDTO = new UserDTO()
+                {
+                    Id = user.Id,
+                    Name = user.Name,
+                    DateOfBirth = user.DateOfBirth.ToShortDateString(),
+                    Married = user.Married,
+                    Phone = user.Phone,
+                    Salary = user.Salary
+                };
+                usersOutput.Add(userDTO);
+            }
+            return View(usersOutput);
+        }
         public IActionResult Edit(int id)
         {
             if (id == null)
@@ -85,61 +105,7 @@ namespace UserApp.Controllers
             return RedirectToAction("GetUsers");
         }
 
-        [HttpGet("users")]
-        public IActionResult GetUsers()
-        {            
-            return View();
-        }
 
-        [HttpPost("loadData")]
-        public IActionResult LoadData()
-        {
-            var draw = Request.Form["draw"].FirstOrDefault();
-            var start = Request.Form["start"].FirstOrDefault();
-            var length = Request.Form["length"].FirstOrDefault();
-            var sortColumn = Request.Form["columns[" + Request.Form["order[0][column]"].FirstOrDefault() + "][name]"].FirstOrDefault();
-            var sortColumnDirection = Request.Form["order[0][dir]"].FirstOrDefault();
-            var searchValue = Request.Form["search[value]"].FirstOrDefault();
-            int pageSize = length != null ? Convert.ToInt32(length) : 0;
-            int skip = start != null ? Convert.ToInt32(start) : 0;
-            int recordsTotal = 0;
-            var userData = (from tempcustomer in GetListUsers() select tempcustomer);
-            /*if (!(string.IsNullOrEmpty(sortColumn) && string.IsNullOrEmpty(sortColumnDirection)))
-            {
-                customerData = customerData.OrderBy(sortColumn + " " + sortColumnDirection);
-            }*/
-            if (!string.IsNullOrEmpty(searchValue))
-            {
-                userData = userData.Where(m => m.Name.Contains(searchValue));
-
-            }
-            recordsTotal = userData.Count();
-            var data = userData.Skip(skip).Take(pageSize).ToList();
-            var jsonData = new { draw = draw, recordsFiltered = recordsTotal, recordsTotal = recordsTotal, data = data };
-            return Ok(jsonData);
-        }
-
-        // GET: Users/users
-        //[HttpGet("users")]
-        private List<UserDTO> GetListUsers()
-        {
-            var users = _userService.GetAllList();
-            var usersOutput = new List<UserDTO>();
-            foreach (var user in users)
-            {
-                UserDTO userDTO = new UserDTO()
-                {
-                    Id = user.Id,
-                    Name = user.Name,
-                    DateOfBirth=user.DateOfBirth.ToShortDateString(),
-                    Married=user.Married,
-                    Phone=user.Phone,
-                    Salary=user.Salary
-                };
-                usersOutput.Add(userDTO);
-            }
-            return usersOutput;
-        }
 
         [HttpPost("UploadFile")]
         public IActionResult UploadFile(IFormFile uploadedFile)
@@ -188,6 +154,64 @@ namespace UserApp.Controllers
             var path = Directory.GetCurrentDirectory() + @"\Files\";
             return Directory.GetFiles(path);
         }
+
+        // For jQuery
+        /*
+        [HttpGet("users")]
+        public IActionResult GetUsers()
+        {            
+            return View();
+        }
+
+        [HttpPost("loadData")]
+        public IActionResult LoadData()
+        {
+            var draw = Request.Form["draw"].FirstOrDefault();
+            var start = Request.Form["start"].FirstOrDefault();
+            var length = Request.Form["length"].FirstOrDefault();
+            var sortColumn = Request.Form["columns[" + Request.Form["order[0][column]"].FirstOrDefault() + "][name]"].FirstOrDefault();
+            var sortColumnDirection = Request.Form["order[0][dir]"].FirstOrDefault();
+            var searchValue = Request.Form["search[value]"].FirstOrDefault();
+            int pageSize = length != null ? Convert.ToInt32(length) : 0;
+            int skip = start != null ? Convert.ToInt32(start) : 0;
+            int recordsTotal = 0;
+            var userData = (from tempcustomer in GetListUsers() select tempcustomer);
+            if (!(string.IsNullOrEmpty(sortColumn) && string.IsNullOrEmpty(sortColumnDirection)))
+            {
+                customerData = customerData.OrderBy(sortColumn + " " + sortColumnDirection);
+            }
+            if (!string.IsNullOrEmpty(searchValue))
+            {
+                userData = userData.Where(m => m.Name.Contains(searchValue));
+
+            }
+            recordsTotal = userData.Count();
+            var data = userData.Skip(skip).Take(pageSize).ToList();
+            var jsonData = new { draw = draw, recordsFiltered = recordsTotal, recordsTotal = recordsTotal, data = data };
+            return Ok(jsonData);
+        }
+
+        // GET: Users/users
+        //[HttpGet("users")]
+        private List<UserDTO> GetListUsers()
+        {
+            var users = _userService.GetAllList();
+            var usersOutput = new List<UserDTO>();
+            foreach (var user in users)
+            {
+                UserDTO userDTO = new UserDTO()
+                {
+                    Id = user.Id,
+                    Name = user.Name,
+                    DateOfBirth=user.DateOfBirth.ToShortDateString(),
+                    Married=user.Married,
+                    Phone=user.Phone,
+                    Salary=user.Salary
+                };
+                usersOutput.Add(userDTO);
+            }
+            return usersOutput;
+        }*/
 
     }
 }

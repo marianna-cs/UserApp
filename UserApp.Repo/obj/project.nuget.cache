@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j6C8Z2Gl/aFl+7QYoxuvwqRzw0p4dBRmSr+7gNA1k1oOSCo1mdg7KVOSbzuGFrOgL2SqRTN460oOQRD0tnspZA==",
+  "dgSpecHash": "xGw6LJ9QGIB/CNx6XsaGW2Pkydte97EWQSLMgz+hCpiutVlrKIKtR3Pg4PDpOJqm8SNMg8ahaMRSkKXCFDgiJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Repo\\UserApp.Repo.csproj",
+  "projectFilePath": "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Repo\\UserApp.Repo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\witet\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\witet\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

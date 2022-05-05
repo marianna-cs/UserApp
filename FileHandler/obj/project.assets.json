@@ -39,11 +39,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\witet\\source\\repos\\UserApp\\FileHandler\\FileHandler.csproj",
+      "projectUniqueName": "C:\\Users\\witet\\Desktop\\UserApp\\FileHandler\\FileHandler.csproj",
       "projectName": "FileHandler",
-      "projectPath": "C:\\Users\\witet\\source\\repos\\UserApp\\FileHandler\\FileHandler.csproj",
+      "projectPath": "C:\\Users\\witet\\Desktop\\UserApp\\FileHandler\\FileHandler.csproj",
       "packagesPath": "C:\\Users\\witet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\witet\\source\\repos\\UserApp\\FileHandler\\obj\\",
+      "outputPath": "C:\\Users\\witet\\Desktop\\UserApp\\FileHandler\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

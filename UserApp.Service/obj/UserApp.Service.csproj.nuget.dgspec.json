@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Service\\UserApp.Service.csproj": {}
+    "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Service\\UserApp.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Data\\UserApp.Data.csproj": {
+    "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Data\\UserApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Data\\UserApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Data\\UserApp.Data.csproj",
         "projectName": "UserApp.Data",
-        "projectPath": "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Data\\UserApp.Data.csproj",
+        "projectPath": "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Data\\UserApp.Data.csproj",
         "packagesPath": "C:\\Users\\witet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Repo\\UserApp.Repo.csproj": {
+    "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Repo\\UserApp.Repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Repo\\UserApp.Repo.csproj",
+        "projectUniqueName": "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Repo\\UserApp.Repo.csproj",
         "projectName": "UserApp.Repo",
-        "projectPath": "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Repo\\UserApp.Repo.csproj",
+        "projectPath": "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Repo\\UserApp.Repo.csproj",
         "packagesPath": "C:\\Users\\witet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Repo\\obj\\",
+        "outputPath": "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Repo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -108,8 +108,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Data\\UserApp.Data.csproj": {
-                "projectPath": "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Data\\UserApp.Data.csproj"
+              "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Data\\UserApp.Data.csproj": {
+                "projectPath": "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Data\\UserApp.Data.csproj"
               }
             }
           }
@@ -168,14 +168,14 @@
         }
       }
     },
-    "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Service\\UserApp.Service.csproj": {
+    "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Service\\UserApp.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Service\\UserApp.Service.csproj",
+        "projectUniqueName": "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Service\\UserApp.Service.csproj",
         "projectName": "UserApp.Service",
-        "projectPath": "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Service\\UserApp.Service.csproj",
+        "projectPath": "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Service\\UserApp.Service.csproj",
         "packagesPath": "C:\\Users\\witet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Service\\obj\\",
+        "outputPath": "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -196,8 +196,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Repo\\UserApp.Repo.csproj": {
-                "projectPath": "C:\\Users\\witet\\source\\repos\\UserApp\\UserApp.Repo\\UserApp.Repo.csproj"
+              "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Repo\\UserApp.Repo.csproj": {
+                "projectPath": "C:\\Users\\witet\\Desktop\\UserApp\\UserApp.Repo\\UserApp.Repo.csproj"
               }
             }
           }
