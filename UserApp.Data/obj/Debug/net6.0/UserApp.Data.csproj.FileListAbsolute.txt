@@ -1,0 +1,14 @@
+C:\Users\witet\source\repos\UserApp\UserApp.Data\bin\Debug\net6.0\UserApp.Data.deps.json
+C:\Users\witet\source\repos\UserApp\UserApp.Data\bin\Debug\net6.0\UserApp.Data.runtimeconfig.json
+C:\Users\witet\source\repos\UserApp\UserApp.Data\bin\Debug\net6.0\UserApp.Data.dll
+C:\Users\witet\source\repos\UserApp\UserApp.Data\bin\Debug\net6.0\ref\UserApp.Data.dll
+C:\Users\witet\source\repos\UserApp\UserApp.Data\bin\Debug\net6.0\UserApp.Data.pdb
+C:\Users\witet\source\repos\UserApp\UserApp.Data\obj\Debug\net6.0\UserApp.Data.csproj.AssemblyReference.cache
+C:\Users\witet\source\repos\UserApp\UserApp.Data\obj\Debug\net6.0\UserApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\witet\source\repos\UserApp\UserApp.Data\obj\Debug\net6.0\UserApp.Data.AssemblyInfoInputs.cache
+C:\Users\witet\source\repos\UserApp\UserApp.Data\obj\Debug\net6.0\UserApp.Data.AssemblyInfo.cs
+C:\Users\witet\source\repos\UserApp\UserApp.Data\obj\Debug\net6.0\UserApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\witet\source\repos\UserApp\UserApp.Data\obj\Debug\net6.0\UserApp.Data.dll
+C:\Users\witet\source\repos\UserApp\UserApp.Data\obj\Debug\net6.0\ref\UserApp.Data.dll
+C:\Users\witet\source\repos\UserApp\UserApp.Data\obj\Debug\net6.0\UserApp.Data.pdb
+C:\Users\witet\source\repos\UserApp\UserApp.Data\obj\Debug\net6.0\UserApp.Data.genruntimeconfig.cache

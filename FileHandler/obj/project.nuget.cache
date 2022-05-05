@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "I+zetggTl+Rkj8jjTthWnMcyD7EKnQyfWymwyyynG4D3MQ4NlvHSTOfvjz04dTHuNooPF5bHT8XEK44FKU4fBw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\witet\\source\\repos\\UserApp\\FileHandler\\FileHandler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\witet\\.nuget\\packages\\kbcsv\\6.0.0\\kbcsv.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

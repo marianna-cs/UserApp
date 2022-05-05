@@ -1,0 +1,16 @@
+﻿@using UserApp.Data
+@{
+    ViewBag.Title = "Upload";
+}
+<h3>Select file to upload</h3>
+@using (Html.BeginForm("UploadFile", "User", FormMethod.Post, new {enctype="multipart/form-data"}))
+{
+    <input type="file" name="uploadedFile"/><br><br>
+    <input type="submit" value="Upload" /><br><br>
+}
+<h3>Load users into database</h3>
+@using (Html.BeginForm("UploadUsers", "User", FormMethod.Post, new {enctype="multipart/form-data"}))
+{
+    <input type="submit" value="Load" />
+}
+<p><a asp-action="GetUsers">Get Users</a></p>

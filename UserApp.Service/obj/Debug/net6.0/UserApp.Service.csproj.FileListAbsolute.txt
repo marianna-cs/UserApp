@@ -1,0 +1,17 @@
+C:\Users\witet\source\repos\UserApp\UserApp.Service\bin\Debug\net6.0\UserApp.Service.deps.json
+C:\Users\witet\source\repos\UserApp\UserApp.Service\bin\Debug\net6.0\UserApp.Service.dll
+C:\Users\witet\source\repos\UserApp\UserApp.Service\bin\Debug\net6.0\ref\UserApp.Service.dll
+C:\Users\witet\source\repos\UserApp\UserApp.Service\bin\Debug\net6.0\UserApp.Service.pdb
+C:\Users\witet\source\repos\UserApp\UserApp.Service\bin\Debug\net6.0\UserApp.Data.dll
+C:\Users\witet\source\repos\UserApp\UserApp.Service\bin\Debug\net6.0\UserApp.Repo.dll
+C:\Users\witet\source\repos\UserApp\UserApp.Service\bin\Debug\net6.0\UserApp.Repo.pdb
+C:\Users\witet\source\repos\UserApp\UserApp.Service\bin\Debug\net6.0\UserApp.Data.pdb
+C:\Users\witet\source\repos\UserApp\UserApp.Service\obj\Debug\net6.0\UserApp.Service.csproj.AssemblyReference.cache
+C:\Users\witet\source\repos\UserApp\UserApp.Service\obj\Debug\net6.0\UserApp.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\witet\source\repos\UserApp\UserApp.Service\obj\Debug\net6.0\UserApp.Service.AssemblyInfoInputs.cache
+C:\Users\witet\source\repos\UserApp\UserApp.Service\obj\Debug\net6.0\UserApp.Service.AssemblyInfo.cs
+C:\Users\witet\source\repos\UserApp\UserApp.Service\obj\Debug\net6.0\UserApp.Service.csproj.CoreCompileInputs.cache
+C:\Users\witet\source\repos\UserApp\UserApp.Service\obj\Debug\net6.0\UserApp.Service.csproj.CopyComplete
+C:\Users\witet\source\repos\UserApp\UserApp.Service\obj\Debug\net6.0\UserApp.Service.dll
+C:\Users\witet\source\repos\UserApp\UserApp.Service\obj\Debug\net6.0\ref\UserApp.Service.dll
+C:\Users\witet\source\repos\UserApp\UserApp.Service\obj\Debug\net6.0\UserApp.Service.pdb
